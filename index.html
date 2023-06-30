@@ -9,27 +9,34 @@
     <title>Document</title>
 </head>
 <body>
-
     <header class="navegation">
-        <div class="parent-box">
-            <img src="./img/logo-renan.jpg" alt="logo-renan" class="logo-renan">   
-            <h1 class="title">RENAN COELHO DA SILVA MENEZES</h1>
-        </div>    
+        <nav>
+           <div class="parent-box">
+            <a href="index.html">
+                <img src="./img/logo-renan.jpg" alt="logo-renan" class="logo-renan"></a>
+                <h1 class="title">RENAN COELHO DA SILVA MENEZES</h1>
+            </div>    
+            <div class="header-link">
+                <li>
+                    <a href="#footer_info">INFORMAÇÕES COMPLEMENTARES</a>
+                </li>
+                <li>
+                    <a href="#footer_social">REDES SOCIAIS</a>
+                </li>
+            </div> 
+        </nav>
     </header>
 
     <main>
         
     <section id="personal-info">
-        
         <h1 class="sub-title">INFORMAÇÕES PESSOAIS</h1>
-
         <div class="parent-box">
             <img src="./img/renan.jpg" alt="Renan" class="image">
                 <div class="child-box">
                     <h3 class="text-info">Renan Coelho da Silva Menezes</h3>
                     <h3 class="text-info">20 Anos</h3>
-                    <h3 class="text-info">Santo André</h3>
-                    <h3 class="text-info">Desenvolvedor Front-end</h3>
+                    <h3 class="text-info">Estudante de Front-end</h3>
                 </div>
 
         </div>
@@ -77,18 +84,42 @@
 
     </main>
 
-    <footer class="baseboard">
-        <p class="text-contacts">Contato</p>
-        <p class="text-contacts">(11)97423-8028</p>
-        <p class="text-contacts">Santo André, São Paulo</p>
-        <img src="./img/gmail.png" alt="Logo" class="icons">
-        <p class="text-contacts">Email: 2003renancsm@gmail.com</p>
-        <ul>
-            <img src="./img/github.png" alt="Logo" class="icons">
-            <li class="main-contacts"><a href="https://github.com/renan-menezess">Github</a></li>
-            <img src="./img/linkedin.png" alt="Logo" class="icons">
-            <li class="main-contacts"><a href="https://br.linkedin.com/in/renancoelhodasilvamenezes">Linkedin</a></li>
-        </ul>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_info">
+                <h1>INFORMAÇÕES COMPLEMENTARES</h1>
+                <p>Santo André, São Paulo</p>
+            </div>
+        
+            <div id="footer_social">
+                <div>
+                    <h2>REDES SOCIAIS</h2>
+                    <div>
+                        <h2>GITHUB</h2>
+                        <a href="https://github.com/renan-menezess">
+                            <img src="./img/github.png" class="icons"></a>
+                        
+                    </div>
+
+                    <div>
+                        <h2>LINKEDIN</h2>
+                        <a href="https://www.linkedin.com/in/renancoelhodasilvamenezes/">
+                            <img src="./img/linkedin.png" class="icons"></a>
+                        
+                    </div>
+
+                    <div>
+                        <h2>GMAIL</h2>
+                        <a><img src="./img/gmail.png" class="icons"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div id="footer_copyright">
+            <p>Copyright © 2023 TermsFeed®. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
