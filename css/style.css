@@ -24,7 +24,7 @@ body {
     font-size: 20pt;
     background-color: var(--main-color);
     color: var(--font-color);
-    padding-top: 3.5%;
+    padding-top: 2rem;
     border: 2px solid var(--main-color);
     text-align: center;
 }
