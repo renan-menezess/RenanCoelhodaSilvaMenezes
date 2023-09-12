@@ -1,0 +1,29 @@
+/*TEXTO*/
+
+.text-info {
+    font-size: 15pt;
+    line-height: 2;
+    color: var(--font-color)
+}
+
+.text-desc {
+    font-size: 13pt;
+    line-height: 2;
+    color: var(--font-color);
+}
+
+.text-hob-and-int {
+    font-size: 15pt;
+    line-height: 2;
+    color: var(--font-color);
+    list-style: none;
+}
+
+.text-contacts {
+    font-size: 15pt;
+    line-height: 1;
+    color: var(--font-color);
+    list-style: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
